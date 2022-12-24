@@ -1,0 +1,9 @@
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0 100px;
+}
+.header__title {
+    font-size: 40px ;
+}

@@ -1,0 +1,72 @@
+.timer__wrap {
+    background: rgba(35, 34, 74, 0.6);
+    backdrop-filter: blur(9.5px);
+    border-radius: 25px;
+    padding: 30px;
+    position: relative;
+    z-index: 999;
+}
+.timer__infoTitle {
+    font-size: 18px;
+    color: #fff;
+}
+.timer__infoSubtitle {
+    font-size: 16px;
+    color: #505982;
+}
+.timer__clockWrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    z-index: 999;
+}
+.timer__infoWrap {
+    text-align: center;
+    z-index: 999;
+}
+.timer__minutes, .timer__seconds {
+    gap: 20px;
+}
+.timer__timeWrap {
+    width: 60px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(41, 40, 84, 0.7);
+    border-radius: 25px;
+    font-size: 40px;
+    color: #fff;
+}
+.timer__spliter {
+    font-size: 40px;
+    color: #fff;
+}
+.timer__blicks {
+    height: 130px;
+    width: 130px;
+    filter: blur(50px);
+    position: absolute;
+    z-index: -1;
+}
+.timer__leftBlick {
+    background: linear-gradient(45.97deg, rgba(71, 217, 250, 0.82) 10.25%, rgba(45, 171, 242, 0.82) 92.73%);
+    top: 0;
+    left: -30px;
+}
+.timer__rightBlick {
+    background: linear-gradient(60.72deg, #3D2FDE 1.97%, #B32DE2 94.61%);
+    bottom: 0;
+    right: -30px;
+}
+.timer__rightCoin {
+    position: absolute;
+    top: -70px;
+    right: -75px;
+}
+.timer__leftCoin {
+    position: absolute;
+    bottom: -60px;
+    left: -80px;
+}

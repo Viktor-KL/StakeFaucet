@@ -1,0 +1,31 @@
+.wrap {
+    background: rgba(41, 40, 84, 0.7);
+    text-align: center;
+    padding: 50px 0;
+}
+.logo {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 500;
+}
+.socailIcons {
+    font-size: 28px;
+    color: #505982;
+    margin-right: 30px;
+}
+.socials__wrap {
+    margin-bottom: 32px;
+}
+.links__wrap {
+    margin: 20px 0 32px;
+}
+.copyright__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.copyright {
+    font-size: 18px;
+    color: #505982;
+}

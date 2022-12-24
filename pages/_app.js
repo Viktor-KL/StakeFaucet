@@ -1,5 +1,20 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+import Head from "next/head";
+import Layout from '../components/Layout';
+import Header from '../components/Header/Header';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+
+
+
+
+const MyApp = ({ Component, pageProps }) => (
+  <Layout>
+    
+    <main>
+      <Component {...pageProps} />
+    </main>
+    
+  </Layout>
+)
+
+export default MyApp;

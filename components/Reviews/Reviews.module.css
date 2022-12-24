@@ -1,0 +1,71 @@
+.wrap {
+    margin-bottom: 150px;
+}
+.wrap__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.slider__block {
+    height: 440px !important;
+    width: 390px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+.slider__name {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+.slider__link {
+    color: #fff;
+    padding: 12px 30px;
+    border: 2px #505982 solid;
+    border-radius: 25px;
+}
+.slider__subtitle {
+    font-size: 16px;
+    color: #ffffff88;
+    margin: 15px 0;
+}
+.slider__arrows {
+    height: 50px;
+    width: 50px;
+    background: rgba(35, 34, 74, 0.6);
+    border-radius: 5px;
+    border: none;
+    color: #ffffff80;
+    font-size: 20px;
+    margin-left: 25px;
+}
+.slider__arrows:hover {
+    cursor: pointer;
+}
+.slider__block:nth-child(1) {
+    background: url('./../../public/img/arturBg.png');
+}
+.slider__block:nth-child(2) {
+    background: url('./../../public/img/MaksBg.png');
+}
+.slider__block:nth-child(3) {
+    background: url('./../../public/img/albertBg.png');
+}
+.slider__block:nth-child(4) {
+    background: url('./../../public/img/arturBg.png');
+}
+.slider__block:nth-child(5) {
+    background: url('./../../public/img/MaksBg.png');
+}
+.slider__block:nth-child(6) {
+    background: url('./../../public/img/albertBg.png');
+}
+

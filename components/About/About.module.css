@@ -1,0 +1,26 @@
+.about__subtitle {
+    font-size: 24px;
+    color: #505982;
+}
+.about__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 60px;
+}
+.about__infoSection {
+    margin-top: 40px;
+    
+}
+.about__infoSectionSubtitle {
+    font-size: 18px;
+    color: #505982;
+    margin-left: 20px;
+}
+.about__infoSectionBlock {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
